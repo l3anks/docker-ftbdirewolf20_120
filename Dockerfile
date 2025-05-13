@@ -2,10 +2,10 @@
 
 FROM openjdk:18.0.2-jdk-buster
 
-LABEL version="1.16.0"
+LABEL version="1.16.1"
 LABEL homepage.group=Minecraft
 LABEL homepage.name="FTB Presents Direwolf20 1.20"
-LABEL homepage.icon="https://apps.modpacks.ch/modpacks/art/109/Pack%20Logo%20512x512.png"
+LABEL homepage.icon="https://cdn.feed-the-beast.com/blob/a0/a0a831f952e8222168f7bd13e250f9f6229486b8662e1326cbc78b85551f7a75.png"
 LABEL homepage.widget.type=minecraft
 LABEL homepage.widget.url=udp://FTB-Direwolf20-1.20:25565
 
@@ -23,7 +23,7 @@ WORKDIR /data
 
 EXPOSE 25565/tcp
 
-ENV MOTD="FTB Presents Direwolf20 1.20 v1.16.0 Server Powered by Docker"
+ENV MOTD="FTB Presents Direwolf20 1.20 v1.16.1 Server Powered by Docker"
 ENV LEVEL=world
 ENV JVM_OPTS="-Xms4096m -Xmx6144m"
 
